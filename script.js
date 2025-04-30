@@ -35,7 +35,7 @@
     const resultDiv = document.getElementById('result');
     resultDiv.style.display = 'block';
     resultDiv.innerHTML = `
-        <h3>:The Results</h3>
+        <h3>The Results :</h3>
         <p> pKa : ${pKa}</p>
         <p> The Acid : ${acids[acid].name}</p>
         <p> buffer capacity : ${capacity.toFixed(2)}</p>
