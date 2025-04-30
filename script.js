@@ -2,7 +2,7 @@
     e.preventDefault();
 
     const container = document.querySelector(".container")
-    container.style.marginTop= "170px";
+    container.style.marginTop= "-3px";
     container.style.marginBottom= "40px";
     // Data colction
     const ph = parseFloat(document.getElementById('ph').value);
