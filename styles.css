@@ -20,13 +20,11 @@ body {
     max-width:600px;
     max-height: fit-content;
     overflow: hidden;
+    margin-bottom: 20px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
-}
-.container:enabled {
-    margin-top: 40px;
 }
 .container::after{
     content: "";
